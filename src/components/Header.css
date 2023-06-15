@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(145, 145, 156);
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .weather-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .weather-card p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .weather-card p:nth-child(3) {
+    margin-top: 0;
+  }
+  
